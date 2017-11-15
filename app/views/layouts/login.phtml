@@ -1,0 +1,75 @@
+
+<style type="text/css">
+.card .header-primary {
+	background: linear-gradient(60deg, #631c1c, #ff0000);
+}
+
+.form-control, .form-group .form-control {
+	border: 0;
+	background-image: linear-gradient(#b02727, #b02727), linear-gradient(#D2D2D2, #D2D2D2);
+	background-image: none;
+	background-color: black;
+	background-size: 0 2px, 100% 1px;
+	background-repeat: no-repeat;
+	background-position: center bottom, center calc(100% - 1px);
+	background-color: transparent;
+	transition: background 0s ease-out;
+	float: none;
+	box-shadow: none;
+	border-radius: 0;
+	font-weight: 400;
+}
+
+.form-group.is-focused .form-control {
+	outline: none;
+	background-image: linear-gradient(#b02727, #b02727), linear-gradient(#D2D2D2, #D2D2D2);
+	background-size: 100% 2px, 100% 1px;
+	box-shadow: none;
+	transition-duration: 0.3s;
+}
+</style>
+<div class="wrapper">
+	<div class="header header-filter" style="background-image: url('https://images.unsplash.com/photo-1423655156442-ccc11daa4e99?crop=entropy&dpr=2&fit=crop&fm=jpg&h=750&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1450');">
+
+		<div class="container"  style="padding-top: 10%; padding-bottom: 10%">
+			<div class="row" >
+				<div class="col-md-6">
+					<h1 class="title" style="color:white">Get in, fun awaits you!</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="main main-raised" style="background-color: transparent; border-style: none; box-shadow: none">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-sm-offset-3">
+					<div class="card card-signup">
+						<form class="form" method="get" action="login/login">
+							<div class="content">
+								<div class="input-group">
+									<span class="input-group-addon">
+										<i class="material-icons">Email:</i>
+									</span>
+									<input type="text" class="form-control" placeholder="Email..." name="email">
+								</div>
+
+								<div class="input-group">
+									<span class="input-group-addon">
+										<i class="material-icons">Password:</i>
+									</span>
+									<input type="password" placeholder="Password..." class="form-control"  name="password"/>
+								</div>
+								</div>
+
+								<a href="register"> No account? No problem. Register from here! </a>
+								<div class="footer text-center">
+									<input type="submit" value="Login" class="btn btn-success btn-lg"></input>
+								</div>
+							</form>							
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
